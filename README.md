@@ -21,25 +21,19 @@ zen4/
 
 ## Model Lineup
 
-| Dir | Model | Base (Abliterated) | Total | Active | Context |
-|-----|-------|--------------------|-------|--------|---------|
-| mini | Zen4 Mini | Qwen3-4B-Instruct-2507 | 4B | 4B | 32K |
-| base | Zen4 | Qwen3-8B | 8B | 8B | 32K |
-| pro | Zen4 Pro | Qwen3-14B | 14B | 14B | 32K |
-| max | Zen4 Max | Qwen3-30B-A3B-Instruct-2507 | 30B MoE | 3B | 256K |
-| pro-max | Zen4 Pro Max | Qwen3-Next-80B-A3B-Instruct | 80B MoE | 3B | 256K |
-| coder-flash | Zen4 Coder Flash | GLM-4.7-Flash | 31B MoE | 3B | 131K |
-| coder | Zen4 Coder | Qwen3-Coder-Next | 80B MoE | 3B | 256K |
+| Dir | Model | Total | Active | Context |
+|-----|-------|-------|--------|---------|
+| mini | Zen4 Mini | 4B | 4B | 32K |
+| base | Zen4 | 8B | 8B | 32K |
+| pro | Zen4 Pro | 14B | 14B | 32K |
+| max | Zen4 Max | 30B MoE | 3B | 256K |
+| pro-max | Zen4 Pro Max | 80B MoE | 3B | 256K |
+| coder-flash | Zen4 Coder Flash | 31B MoE | 3B | 131K |
+| coder | Zen4 Coder | 80B MoE | 3B | 256K |
 
-## Abliterated Base Models (HuggingFace)
+## Base Models (HuggingFace)
 
-- `huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated`
-- `huihui-ai/Huihui-Qwen3-8B-abliterated-v2`
-- `mlabonne/Qwen3-14B-abliterated`
-- `huihui-ai/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated`
-- `huihui-ai/Huihui-Qwen3-Next-80B-A3B-Instruct-abliterated-mlx-4bit`
-- `huihui-ai/Huihui-GLM-4.7-Flash-abliterated`
-- `huihui-ai/Huihui-Qwen3-Coder-Next-abliterated`
+Pre-trained base models for each variant are available in the `zenlm/` organization on HuggingFace. See [huggingface.co/zenlm](https://huggingface.co/zenlm) for the full model list.
 
 ## Training
 
